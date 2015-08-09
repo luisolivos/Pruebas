@@ -7,8 +7,9 @@ var fn =
 	conectarAjax: function(){
 		$.ajax({
 			method: 'POST',
-			url: 'http://carlos.igitsoft.com/apps/test.php',
-			data: {nom: 'Nom', mail: 'mail', tel: '22'},
+            url:'http://192.168.1.129/Default.aspx/OnSubmit',
+			//url: 'http://carlos.igitsoft.com/apps/test.php',
+			data: {mail: 'Nom'},
 			error: function(){alert('ajax connection failed');}
 		}).done(function(msg){alert (msg);});
 	},
