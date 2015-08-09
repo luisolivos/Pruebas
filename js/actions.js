@@ -11,7 +11,7 @@ var fn =
 			//url: 'http://carlos.igitsoft.com/apps/test.php',
 			data: {mail: 'Nom'},
 			error: function(){alert('ajax connection failed');}
-		}).done(function(msg){alert (msg);});
+		}).done(function(msg){alert ('correct');});
 	},
 	
 	
